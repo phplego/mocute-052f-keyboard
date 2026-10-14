@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1900" height="1050" viewBox="0 0 1900 1050">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#07111f" flood-opacity="0.20"/>
+    </filter>
+    <style>
+      text { font-family: "DejaVu Sans", "Noto Sans", sans-serif; }
+      .title { font-size: 40px; font-weight: 700; fill: #101828; }
+      .subtitle { font-size: 21px; fill: #667085; }
+      .section { font-size: 25px; font-weight: 700; fill: #101828; }
+      .row { font-size: 23px; fill: #344054; }
+      .pin { font-family: "DejaVu Sans Mono", monospace; font-weight: 700; fill: #0f172a; }
+      .note { font-size: 19px; fill: #667085; }
+      .callout { stroke: #12a36d; stroke-width: 4; fill: none; stroke-linecap: round; }
+      .callout-special { stroke: #7f56d9; stroke-width: 4; fill: none; stroke-linecap: round; }
+      .callout-analog { stroke: #f79009; stroke-width: 4; fill: none; stroke-linecap: round; }
+      .marker { fill: #12a36d; stroke: white; stroke-width: 4; }
+      .marker-special { fill: #7f56d9; stroke: white; stroke-width: 4; }
+      .marker-analog { fill: #f79009; stroke: white; stroke-width: 4; }
+      .marker-text { font-size: 27px; font-weight: 800; fill: white; text-anchor: middle; dominant-baseline: central; }
+    </style>
+  </defs>
+
+  <rect width="1900" height="1050" fill="#f6f8fb"/>
+  <rect x="24" y="24" width="1002" height="1002" rx="28" fill="white" filter="url(#shadow)"/>
+<g id="controller-outline" transform="translate(25 25) scale(1.25)">
+<path d="M49 225 C58 201 81 181 112 169 C147 156 187 159 226 168 C282 184 368 214 457 243 C486 253 504 271 520 298 C581 335 648 395 691 455 C722 498 739 549 731 590 C725 632 703 649 667 650 C632 654 602 645 572 625 L220 431 C199 415 178 402 154 395 C141 390 132 392 125 397 C114 404 105 397 97 385 C74 349 59 306 51 268 Z" fill="white" stroke="#344054" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48 228 C45 242 48 265 48 292 Q47 304 58 306 L70 310 L65 270 L57 232 Z" fill="white" stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 222 C70 196 90 180 116 170 C151 157 190 160 226 169 L457 244 C484 254 502 271 503 293 C507 314 493 331 466 333 C351 320 222 282 108 252 C82 245 64 237 55 222 Z" fill="white" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62 222 C77 197 101 180 125 173 C157 164 191 166 221 174 L451 250 C476 259 492 276 495 293 C498 310 486 323 465 325 C344 309 228 278 112 247 C87 240 69 232 62 222 Z" fill="white" stroke="#98a2b3" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49 255 C114 291 208 319 306 377 C404 436 518 520 636 576 C676 594 714 606 731 586" fill="none" stroke="#344054" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M161 317 C190 330 216 347 244 367 C284 397 321 419 353 438 L357 509 C316 486 272 456 226 427 C199 410 180 402 160 400 Z" fill="white" stroke="#667085" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M172.0 321.0 C173.0 348.0 175.0 384.0 177.0 399.0" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M181.2 327.2 C182.2 354.2 184.2 389.6 186.2 404.6" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M190.5 333.5 C191.5 360.5 193.5 395.1 195.5 410.1" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M199.8 339.8 C200.8 366.8 202.8 400.6 204.8 415.6" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M209.0 346.0 C210.0 373.0 212.0 406.2 214.0 421.2" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M218.2 352.2 C219.2 379.2 221.2 411.8 223.2 426.8" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M227.5 358.5 C228.5 385.5 230.5 417.3 232.5 432.3" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M236.8 364.8 C237.8 391.8 239.8 422.9 241.8 437.9" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M246.0 371.0 C247.0 398.0 249.0 428.4 251.0 443.4" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M255.2 377.2 C256.2 404.2 258.2 433.9 260.2 448.9" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M264.5 383.5 C265.5 410.5 267.5 439.5 269.5 454.5" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M273.8 389.8 C274.8 416.8 276.8 445.1 278.8 460.1" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M283.0 396.0 C284.0 423.0 286.0 450.6 288.0 465.6" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.2 402.2 C293.2 429.2 295.2 456.1 297.2 471.1" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M301.5 408.5 C302.5 435.5 304.5 461.7 306.5 476.7" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310.8 414.8 C311.8 441.8 313.8 467.2 315.8 482.2" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320.0 421.0 C321.0 448.0 323.0 472.8 325.0 487.8" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M329.2 427.2 C330.2 454.2 332.2 478.4 334.2 493.4" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M338.5 433.5 C339.5 460.5 341.5 483.9 343.5 498.9" fill="none" stroke="#98a2b3" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="213" cy="214" rx="90" ry="43" transform="rotate(8 213 214)" fill="white" stroke="#344054" stroke-width="1.8"/>
+<ellipse cx="213" cy="214" rx="77" ry="35" transform="rotate(8 213 214)" fill="none" stroke="#667085" stroke-width="1.2"/>
+<path d="M151 205 C151 183 176 170 206 172 C240 174 270 187 281 204 L281 223 C279 239 255 249 219 249 C183 249 155 237 153 222 Z" fill="white" stroke="#344054" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="217" cy="205" rx="66" ry="30" transform="rotate(7 217 205)" fill="white" stroke="#344054" stroke-width="1.5"/>
+<ellipse cx="215" cy="198" rx="55" ry="23" transform="rotate(7 215 198)" fill="white" stroke="#344054" stroke-width="1.4"/>
+<ellipse cx="214" cy="198" rx="50" ry="20" transform="rotate(7 214 198)" fill="none" stroke="#98a2b3" stroke-width=".9"/>
+<g transform="rotate(14 372 230)">
+<path d="M347 230 L347 237 C347 250 397 250 397 237 L397 230" fill="white" stroke="#344054" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="372" cy="230" rx="25" ry="10" fill="white" stroke="#344054" stroke-width="1.5"/>
+<path d="M365 226 L371 231" fill="none" stroke="#344054" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M369 226 L375 231" fill="none" stroke="#344054" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M373 226 L379 231" fill="none" stroke="#344054" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="rotate(-4 447 256)">
+<path d="M422 256 L422 263 C422 278 472 278 472 263 L472 256" fill="white" stroke="#344054" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="447" cy="256" rx="25" ry="12" fill="white" stroke="#344054" stroke-width="1.5"/>
+<text x="447" y="259" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#667085">Y</text>
+</g>
+<g transform="rotate(1 374 263)">
+<path d="M347 263 L347 270 C347 286 401 286 401 270 L401 263" fill="white" stroke="#344054" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="374" cy="263" rx="27" ry="13" fill="white" stroke="#344054" stroke-width="1.5"/>
+<text x="374" y="266" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#667085">X</text>
+</g>
+<g transform="rotate(5 300 280)">
+<path d="M275 280 L275 287 C275 300 325 300 325 287 L325 280" fill="white" stroke="#344054" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="300" cy="280" rx="25" ry="10" fill="white" stroke="#344054" stroke-width="1.5"/>
+<path d="M300 274 L300 279 M296 276 C289 281 309 287 305 277" fill="none" stroke="#344054" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="rotate(-2 386 301)">
+<path d="M359 301 L359 308 C359 325 413 325 413 308 L413 301" fill="white" stroke="#344054" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="386" cy="301" rx="27" ry="14" fill="white" stroke="#344054" stroke-width="1.5"/>
+<text x="386" y="304" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#667085">A</text>
+</g>
+<g transform="rotate(-4 456 294)">
+<path d="M430 294 L430 301 C430 318 482 318 482 301 L482 294" fill="white" stroke="#344054" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="456" cy="294" rx="26" ry="14" fill="white" stroke="#344054" stroke-width="1.5"/>
+<text x="456" y="297" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="11" fill="#667085">B</text>
+</g>
+<path d="M114 290 C114 285 119 286 125 289 L148 299 Q158 304 155 315 Q153 321 146 317 L119 304 Q111 300 114 290 Z" fill="white" stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 290 L122 303 M129 293 L129 307 M136 296 L136 311 M143 299 L143 314" fill="none" stroke="#344054" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="328" cy="251" rx="4.2" ry="1.9" fill="white" stroke="#344054" stroke-width="1.1"/>
+<text x="109" y="265" font-family="DejaVu Sans,sans-serif" font-size="9" fill="#667085" transform="rotate(20 109 265)">KEY</text>
+<text x="147" y="279" font-family="DejaVu Sans,sans-serif" font-size="9" fill="#667085" transform="rotate(20 147 279)">GAME</text>
+</g>
+
+  <text x="62" y="74" class="title">MOCUTE-052F / CH573F</text>
+  <text x="62" y="108" class="subtitle">Physical controls and microcontroller pin map</text>
+
+  <!-- Digital face controls -->
+  <path d="M470 454 L511 401" class="callout"/>
+  <circle cx="470" cy="454" r="25" class="marker"/><text x="470" y="454" class="marker-text">1</text>
+
+  <path d="M632 452 L603 393" class="callout"/>
+  <circle cx="632" cy="452" r="25" class="marker"/><text x="632" y="452" class="marker-text">2</text>
+
+  <path d="M530 224 L501 354" class="callout"/>
+  <circle cx="530" cy="224" r="25" class="marker"/><text x="530" y="224" class="marker-text">3</text>
+
+  <path d="M660 245 L589 346" class="callout"/>
+  <circle cx="660" cy="245" r="25" class="marker"/><text x="660" y="245" class="marker-text">4</text>
+
+  <path d="M452 171 L485 311" class="callout"/>
+  <circle cx="452" cy="171" r="25" class="marker"/><text x="452" y="171" class="marker-text">5</text>
+
+  <!-- OK trigger, mode switch, power -->
+  <path d="M74 246 L84 335" class="callout"/>
+  <circle cx="74" cy="246" r="25" class="marker"/><text x="74" y="246" class="marker-text">6</text>
+
+  <path d="M106 454 L191 397" class="callout-special"/>
+  <circle cx="106" cy="454" r="25" class="marker-special"/><text x="106" y="454" class="marker-text">7</text>
+
+  <path d="M330 450 L416 374" class="callout-special"/>
+  <circle cx="330" cy="450" r="25" class="marker-special"/><text x="330" y="450" class="marker-text">8</text>
+
+  <!-- Analog joystick and LED -->
+  <path d="M258 151 L278 280" class="callout-analog"/>
+  <circle cx="258" cy="151" r="29" class="marker-analog"/><text x="258" y="151" class="marker-text">J</text>
+
+  <path d="M360 162 L435 339" stroke="#1683c7" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="324" y="140" width="72" height="43" rx="21" fill="#1683c7" stroke="white" stroke-width="4"/>
+  <text x="360" y="161" class="marker-text" style="font-size:18px">LED</text>
+
+  <!-- Legend panel -->
+  <rect x="1052" y="24" width="824" height="1002" rx="28" fill="white" filter="url(#shadow)"/>
+  <text x="1100" y="83" class="section">Digital controls</text>
+
+  <g class="row">
+    <circle cx="1119" cy="130" r="18" class="marker"/><text x="1119" y="130" class="marker-text" style="font-size:20px">1</text>
+    <text x="1154" y="138">A</text><text x="1390" y="138" class="pin">PB22</text><text x="1605" y="138">active LOW</text>
+
+    <circle cx="1119" cy="179" r="18" class="marker"/><text x="1119" y="179" class="marker-text" style="font-size:20px">2</text>
+    <text x="1154" y="187">B</text><text x="1390" y="187" class="pin">PB12</text><text x="1605" y="187">active LOW</text>
+
+    <circle cx="1119" cy="228" r="18" class="marker"/><text x="1119" y="228" class="marker-text" style="font-size:20px">3</text>
+    <text x="1154" y="236">X</text><text x="1390" y="236" class="pin">PB13</text><text x="1605" y="236">active LOW</text>
+
+    <circle cx="1119" cy="277" r="18" class="marker"/><text x="1119" y="277" class="marker-text" style="font-size:20px">4</text>
+    <text x="1154" y="285">Y</text><text x="1390" y="285" class="pin">PB14</text><text x="1605" y="285">active LOW</text>
+
+    <circle cx="1119" cy="326" r="18" class="marker"/><text x="1119" y="326" class="marker-text" style="font-size:20px">5</text>
+    <text x="1154" y="334">Menu</text><text x="1390" y="334" class="pin">PB15</text><text x="1605" y="334">active LOW</text>
+
+    <circle cx="1119" cy="375" r="18" class="marker"/><text x="1119" y="375" class="marker-text" style="font-size:20px">6</text>
+    <text x="1154" y="383">OK trigger</text><text x="1390" y="383" class="pin">PA10</text><text x="1605" y="383">active LOW</text>
+
+    <circle cx="1119" cy="424" r="18" class="marker-special"/><text x="1119" y="424" class="marker-text" style="font-size:20px">7</text>
+    <text x="1154" y="432">KEY / GAME</text><text x="1390" y="432" class="pin">PA11</text><text x="1605" y="432">KEY=0 · GAME=1</text>
+
+    <circle cx="1119" cy="473" r="18" class="marker-special"/><text x="1119" y="473" class="marker-text" style="font-size:20px">8</text>
+    <text x="1154" y="481">Power / Back</text><text x="1390" y="481" class="pin">PA14</text><text x="1605" y="481">active HIGH</text>
+  </g>
+
+  <line x1="1100" y1="523" x2="1828" y2="523" stroke="#e4e7ec" stroke-width="2"/>
+  <text x="1100" y="573" class="section">Analog joystick</text>
+
+  <circle cx="1119" cy="620" r="21" class="marker-analog"/><text x="1119" y="620" class="marker-text" style="font-size:20px">J</text>
+  <text x="1154" y="613" class="row">Horizontal axis</text><text x="1390" y="613" class="row pin">PA12 / ADC2</text>
+  <text x="1154" y="643" class="note">LOW = left · HIGH = right</text>
+
+  <circle cx="1119" cy="694" r="21" class="marker-analog"/><text x="1119" y="694" class="marker-text" style="font-size:20px">J</text>
+  <text x="1154" y="687" class="row">Vertical axis</text><text x="1390" y="687" class="row pin">PA13 / ADC3</text>
+  <text x="1154" y="717" class="note">LOW = down · HIGH = up</text>
+
+  <line x1="1100" y1="757" x2="1828" y2="757" stroke="#e4e7ec" stroke-width="2"/>
+  <text x="1100" y="807" class="section">Board signals</text>
+  <rect x="1101" y="842" width="68" height="35" rx="17" fill="#1683c7"/>
+  <text x="1135" y="860" class="marker-text" style="font-size:16px">LED</text>
+  <text x="1190" y="867" class="row">Indicator</text><text x="1390" y="867" class="row pin">PB7</text>
+  <text x="1100" y="920" class="row">Power latch hold</text><text x="1390" y="920" class="row pin">PB23</text>
+  <text x="1605" y="920" class="row">OUTPUT HIGH</text>
+
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "ch573",
+  "version": "1.0.0",
+  "title": "MOCUTE-052F / CH573F",
+  "description": "Build the CH573F application for the retained MOCUTE-052F loader.",
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": "^6"
+  },
+  "packages": {
+    "toolchain-riscv32-esp": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "14.2.0+20251107"
+    }
+  }
+}
